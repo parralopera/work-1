@@ -1,0 +1,16 @@
+#Ejercicio 3
+
+print("Ingrese el prestamo: ")
+valorp=int(input())
+interesm=int((valorp/12)*0.018)
+print("El interes mensual", interesm)
+cuotam=int((valorp/12)+ interesm)
+print("El valor Mensual", cuotam)
+total_pagar_anual=((cuotam*12)+cuotam)
+print("Valor pago anual", total_pagar_anual)
+total_pagar_dos=int(interesm*2)
+print("total a pagar interes", total_pagar_dos)
+total_interes_anual=int(interesm*12)
+print("total a pagar año", total_interes_anual)
+total_cuota_nueve=int((cuotam*9))
+print("total a pagar en nueve meses", total_cuota_nueve)
